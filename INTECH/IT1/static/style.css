@@ -1,0 +1,37 @@
+#container {
+	width: 900px;
+
+}
+
+#header {
+	width: 900px;
+	height: 100px;
+	background-color: #F8AA3C;
+	color: red;
+	border-bottom: 2px solid #000000
+}
+#leftnav {
+	float: left;
+	width: 140px;
+	height: 400px;
+	background-color: #F8AA3C;
+	border-right: 1px dashed #694717;
+}
+
+#rightnav {
+	float: right;
+	width: 140px;
+	height: 400px;
+	background-color: #F8AA3C;
+	border-left: 1px dashed #694717;
+}
+#body {
+	width: 620px;
+}
+#footer {
+	clear: both;
+	background-color: #D1C0A7;
+}
+
+#body
+#footer
