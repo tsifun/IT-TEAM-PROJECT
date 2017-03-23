@@ -1,0 +1,30 @@
+{% extends 'IT1/base.html' %}
+
+{% block title %}
+Home
+
+{% endblock %}
+
+{% block content %}
+<h1>Home</h1>
+{% if user.is_authenticated %}
+Hello! &ensp; {{ user.username }}.
+{% else %}
+Hello! &ensp; Guest.
+{% endif %} <br />
+
+
+<img src="/static/images/pic_africa.jpg" alt="1" />
+<img src="/static/images/pic_america.jpg"" alt="2" />
+<img src="/static/images/pic_europe.jpg"" alt="3" />
+<img src="/static/images/pic_asia.jpg"" alt="4" /><
+<img src="/static/images/pic_australia.jpg"" alt="5" />
+<img src="/static/images/pic_mountains.jpg"" alt="5" />
+    </div>
+
+    </div>
+
+
+
+
+{% endblock %}
