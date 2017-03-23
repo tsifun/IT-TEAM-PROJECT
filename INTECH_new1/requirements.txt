@@ -1,0 +1,14 @@
+automium==0.2.6
+automium-web==0.1.1
+click==6.7
+Django==1.10.3
+Flask==0.12
+itsdangerous==0.24
+Jinja2==2.9.4
+legacy==0.1.6
+MarkupSafe==0.23
+olefile==0.44
+Pillow==4.0.0
+virtualenv==15.1.0
+virtualenvwrapper-win==1.2.1
+Werkzeug==0.11.15

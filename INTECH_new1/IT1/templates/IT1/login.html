@@ -1,0 +1,18 @@
+{% extends 'IT1/base.html' %}
+
+{% block title %}
+login
+{% endblock %}
+
+{% block content %}
+<h1>Login to Localspotpic</h1>
+<form id="login_form" method="post" action="/login/">
+    {% csrf_token %}
+    Username: <input type="text" name="username" value="" size="25" />
+    <br /><br />
+    Password : <input type="password" name="password" value="" size="25" />
+    <br /><br />
+
+    <input type="submit" value="Submit" />
+</form>
+{% endblock %}
